@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <style>
+        a {text-decoration: none;} 
+    </style>
+</head>
+<body>
+    <h1>Реєстрація на сайті AutoShrot</h1>
+    <form action="https://fom.in.ua/echo">
+        <p><input type="text" name="Name" placeholder="Ім'я"></p>
+        <p><input type="email" name="e-mail" placeholder="e-mail"></p>
+        <p><input type="tel" name="tel" placeholder="Телефон" pattern="2-[0-9]{3}-[0-9]{3}"></p>
+        <p><input type="password" name="pass" placeholder="Пароль"></p>
+        <p><input type="password" name="repeat pass" placeholder="Повторіть пароль"></p>
+        <p><input type="submit" value="Зареєструватись"></p>
+        <p>
+            <input type="checkbox" name="agree" id="agree_id">
+            <label for="agree_id">Погоджуюсь з умовами</label>
+        </p>
+        <input type="hidden" name="user id">
+    </form>
+    <h3>Є питання чи пропозиції?</h3>
+    <p>Надамо відповіть на протязі 5 хв...</p>
+    <form action="https://fom.in.ua/echo">
+        <textarea name="question" cols="40" rows="3" placeholder="Служба турботи про клієнтів"></textarea>
+        <p><input type="submit" value="Надіслати"></p>
+    </form>
+    <a href="index.html">На головну</a>
+</body>
+</html>

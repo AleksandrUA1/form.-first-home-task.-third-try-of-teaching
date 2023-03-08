@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продати авто</title>
+    <style>
+        a {text-decoration: none;} 
+    </style>
+</head>
+<body>
+    <h1>Створення оголошення</h1>
+    <form action="https://fom.in.ua/echo" target="_blank">
+        <ul>
+            <li>
+                <h3>Додайте від 2 до 20 фото</h3>
+                <p><input type="file" value="Оберіть фото" name="Foto"></p>
+            </li>
+            <li>
+                <h3>Основна інформація</h3>
+                <ul>
+                    <li>
+                        <h4>Тип транспорту</h4>
+                        <select size="1" name="Type auto">
+                            <option selected disabled value="No data">Оберіть тип авто</option>
+                            <option value="a1">Легкові</option>
+                            <option value="a2">Мото</option>
+                            <option value="a3">Грузовики</option>
+                            <option value="a4">Спецтехніка</option>
+                            <option value="a5">Автобуси</option>
+                        </select>
+                    </li>
+                    <li>
+                        <h4>Марка авот</h4>
+                        <select size="1" name="Mark auto">
+                            <option selected disabled value="No data">Оберіть марку авто</option>
+                            <option value="b1">Марка 1</option>
+                            <option value="b2">Марка 2</option>
+                            <option value="b3">Марка 3</option>
+                            <option value="b4">Марка 4</option>
+                            <option value="b5">Марка 5</option>
+                        </select>
+                    </li>
+                    <li>
+                        <h4>Модель авто</h4>
+                        <select size="1" name="Model auto">
+                            <option selected disabled value="No data">Оберіть модель авто</option>
+                            <option value="c1">Модель 1</option>
+                            <option value="c2">Модель 2</option>
+                            <option value="c3">Модель 3</option>
+                            <option value="c4">Модель 4</option>
+                            <option value="c5">Модель 5</option>
+                        </select>
+                    </li>
+                    <li>
+                        <h4>Рік випуску</h4>
+                        <select size="1" name="year prod">
+                            <option selected disabled value="No data">Оберіть рік</option>
+                            <option value="d1">1980</option>
+                            <option value="d2">1983</option>
+                            <option value="d3">1986</option>
+                            <option value="d4">1989</option>
+                            <option value="d5">1992</option>
+                            <option value="d6">1995</option>
+                            <option value="d7">1998</option>
+                            <option value="d8">2000</option>
+                            <option value="d9">2002</option>
+                            <option value="d10">2004</option>
+                            <option value="d11">2006</option>
+                            <option value="d12">2008</option>
+                            <option value="d13">2010</option>
+                            <option value="d14">2012</option>
+                            <option value="d15">2014</option>
+                            <option value="d16">2016</option>
+                            <option value="d17">2018</option>
+                            <option value="d18">2020</option>
+                            <option value="d19">2022</option>
+                        </select>
+                    </li>
+                    <li>
+                        <h4>Тип кузову</h4>
+                        <label><input type="radio" name="Body type" value="f1">Седан</label>
+                        <label><input type="radio" name="Body type" value="f2">Кабріолет</label>
+                        <label><input type="radio" name="Body type" value="f3">Пікап</label>
+                        <label><input type="radio" name="Body type" value="f4">Кроссовер</label>
+                        <label><input type="radio" name="Body type" value="f5">Позашляховик</label>
+                        <label><input type="radio" name="Body type" value="f6">Купе</label>
+                    
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>Характеристики авто</h3>
+            </li>
+            <li>
+                <h3>Додаткові опції</h3>
+            </li>
+            <li>
+                <h3>Описання автомобіля</h3>
+            </li>
+            <li>
+                <h3>Вартість</h3>
+            </li>
+            <li>
+                <h3>Контактні дані</h3>
+            </li>
+        </ul>
+        <p>
+            <input type="checkbox" id="agree">
+            <label for="agree">Погоджуюсь з умовами використання ресурсу</label>
+        </p>
+        <p>
+            <input type="reset" value="Очистити">
+            <input type="submit" value="Створити оголошення">
+        </p>
+        <input type="hidden" name="user id" value="">
+    </form>
+    <a href="index.html">На головну</a>
+</body>
+</html>
